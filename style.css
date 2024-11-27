@@ -65,3 +65,9 @@ p {
     background-color: rgb(2, 145, 206);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+.link {
+    color: rgb(163, 128, 31);
+    background-color: rgb(33, 153, 73);
+    font-family: 'Arial Black', Gadget, sans-serif;
+}
