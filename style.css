@@ -71,3 +71,108 @@ p {
     background-color: rgb(33, 153, 73);
     font-family: 'Arial Black', Gadget, sans-serif;
 }
+
+.class {
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .navigation ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .navigation ul li a:hover {
+    color: #00bcd4;
+  }
+  .styled-div {
+    /* Layout */
+    width: 80%;
+    margin: 20px auto;
+    padding: 50px;
+  
+    /* Aesthetic Styling */
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradient background */
+    color: white; /* Text color */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); /* Soft shadow */
+  
+    /* Typography */
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .styled-div h2 {
+    margin-bottom: 10px;
+    font-size: 1.8em;
+  }
+  
+  .styled-div p {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  .footer {
+    background-color: #333; /* Dark background */
+    color: white; /* White text */
+    padding: 20px 0; /* Spacing around the content */
+    text-align: center; /* Center-align text */
+  }
+  
+  .footer-content {
+    max-width: 1200px; /* Limit the width */
+    margin: 0 auto; /* Center the content */
+    padding: 0 15px; /* Add side padding */
+  }
+  
+  .footer p {
+    margin: 0; /* Remove default margin */
+    font-size: 0.9em; /* Smaller font size */
+  }
+  
+  .footer-nav {
+    margin-top: 10px; /* Add space above the links */
+  }
+  
+  .footer-nav a {
+    color: #00bcd4; /* Highlighted link color */
+    text-decoration: none; /* Remove underline */
+    margin: 0 10px; /* Space between links */
+    font-size: 0.9em;
+  }
+  
+  .footer-nav a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  .styled-div a {
+    color: #ffdd57; /* Bright yellow color for contrast */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make the links stand out */
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  .styled-div a:hover {
+    color: #ffeaa7; /* Slightly lighter yellow on hover */
+    text-decoration: underline; /* Add underline on hover */
+  }
